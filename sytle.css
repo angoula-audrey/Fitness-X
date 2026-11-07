@@ -1,0 +1,249 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: #080808;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo {
+    color: #DFFF00 !important;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.logo span {
+    color: white;
+}
+.logo:hover {
+    color: #DFFF00;
+}
+
+.menu {
+    color: white;
+}
+.menu:hover {
+    color: #DFFF00;
+    border-bottom: 2px solid #DFFF00;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #DFFF00;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+.main {
+    /* width: 100%; */
+    position: relative;
+}
+.main video {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.small-text-intro {
+    font-size: 1rem;
+    color: white;
+}
+
+.btn{
+    background-color: #DFFF00;
+}
+
+svg {
+    color: #DFFF00;
+    /* background-color: transparent !important; */
+    
+}
+
+svg:hover {
+    color: white ;
+    /* padding: 20px; */
+}
+.bi-whatsapp:hover {
+    /* background-color: #DFFF00; */
+    /* padding: 40px; */
+    color: white;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 30px #DFFF00 ;
+    color: #DFFF00;
+}
+
+.about-section {
+    background-color: black;
+}
+.about {
+    background-color:#DFFF00 ;
+}
+
+.Fitness-X {
+    font-size:xx-large;
+}
+
+.first-images {
+    width: 100%;
+    height: 300px;
+    /* object-fit: cover; */
+    display: block;
+}
+
+
+
+.first-images:hover {
+    padding: 0.5rem;
+    transform: translateY(1.2);
+    transition: 2s;
+}
+
+.sub-sections {
+    font-size:xx-large;
+    color: #DFFF00;
+    font-size:large;
+}
+
+.hall-description {
+    text-align: center;
+    color: white;
+}
+.coach-title{
+    color: #DFFF00;
+}
+
+.halls {
+    background-color: black;
+}
+
+
+.carousel-image{
+    width: 100%;
+    height: 500px;
+    /* object-fit: cover; */
+    display: block;
+}
+
+.card-title {
+    color: #DFFF00;
+}
+.testimonies {
+    background-color: #DFFF00;
+}
+
+.mimi {
+    height:100% ;
+}
+.testimonial-image{
+    width: 100%;
+    height: 280px;
+    /* object-fit: contain; */
+    
+}
+.card {
+    box-shadow: 0 25px 40px white;
+}
+
+.card:hover {
+    box-shadow: 0 25px 40px black;
+}
+
+.contact {
+    background-color: #080808;
+    border-radius: 2rem;
+
+}
+
+.contact:hover {
+    box-shadow: 0 25px 40px #DFFF00;
+}
+label {
+    color: white;
+}
+
+input {
+    background-color: red;
+}
+
+.form-control {
+    background-color: #141413;
+    border-color: #141413;
+}
+.form-select {
+    background-color: #141413;
+    border-color: #141413;
+}
+.form-select:focus{
+    box-shadow:0 4px 30px #DFFF00 ;
+    border-color: transparent;
+}
+.form-control::placeholder {
+    color: #4b4b4a;
+}
+
+.form-control:focus {
+    box-shadow:0 4px 30px #DFFF00 ;
+}
+
+.form-check-input:checked {
+    background-color: #141413;
+    box-shadow: none;
+    border-color: #DFFF00;
+}
+
+
+.form-check-input:focus {
+    background-color: #DFFF00;
+    box-shadow: 0 0 0 0.25rem #DFFF00;
+    border-color: #DFFF00;
+}
+
+.get-started {
+    color: #DFFF00;
+    font-size: xx-large;
+}
+
+.contact-slogan {
+    color: #DFFF00;
+    font-size: x-large;
+}
+
+.contact-image {
+    width: 100%;
+    height: 370px;
+    /* object-fit: cover; */
+    display: block;
+}
+
+.contact-word {
+    color: white;
+}
+
+.author {
+    text-align: end;
+}
+
+.author span {
+    color: #DFFF00;
+}
+
